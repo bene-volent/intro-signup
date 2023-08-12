@@ -149,8 +149,13 @@ $grayish-blue: 246 25% 77%;
 }
 
 .container {
-    width: min(calc(100% - 3rem), 1120px);
+    width: calc(375px - 3rem);
     margin-inline: auto;
+    
+    @include mq(400px){
+        width: min(calc(100% - 3rem), 1120px);
+
+    }
 }
 
 strong {
@@ -398,4 +403,8 @@ body{
             text-underline-offset: 0.25em;
         }
     }
+}
+
+.container{
+    
 }

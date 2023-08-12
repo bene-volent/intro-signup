@@ -124,8 +124,13 @@ button,
 }
 
 .container {
-  width: min(100% - 3rem, 1120px);
+  width: calc(375px - 3rem);
   margin-inline: auto;
+}
+@media (width > 400px) {
+  .container {
+    width: min(100% - 3rem, 1120px);
+  }
 }
 
 body {
