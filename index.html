@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+  <link rel="stylesheet" href="./src/css/style.css">
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="main">
+    <section class="intro__component">
+
+      <div class="container">
+        <div class="intro__wrapper">
+          <div class="intro__content">
+            <h1 class="intro__heading">Learn to code by watching others</h1>
+            <div class="intro__text">
+              See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+              but understanding how developers think is invaluable.
+            </div>
+          </div>
+          <div class="intro__formContent">
+            <h2 class="form__heading"><strong>Try it free 7 days</strong> then $20/mo. thereafter</h1>
+              <form action="" class="intro__form">
+                <div class="form__inputBox" >
+                  <input type="text" name="fname" class="form__input" id="input1" placeholder=" " autocomplete="off" required>
+                  <label for="input1">First Name</label>
+                  <p class="form__inputInvalid">First Name cannot be empty</p>
+                </div>
+                <div class="form__inputBox" >
+                  <input type="text" name="lname" class="form__input" id="input2" placeholder=" " autocomplete="off" required>
+                  <label for="input2">Last Name</label>
+                  <p class="form__inputInvalid">Last Name cannot be empty</p>
+
+                </div>
+                <div class="form__inputBox">
+                  <input type="email" name="email" class="form__input" id="input3" placeholder=" " autocomplete="off" required>
+                  <label for="input3">Email Address</label>
+                  <p class="form__inputInvalid">Looks like this is not an email</p>
+                </div>
+                <div class="form__inputBox">
+                  <input type="password" name="password" class="form__input " id="input4" placeholder=" " autocomplete="off" required>
+                  <label for="input4">Password</label>
+                  <p class="form__inputInvalid">Password cannot be empty</p>
+                </div>
+                <button class="form__submit" type="submit">Claim your free trial</button>
+                <p class="form__footer">By clicking the button, you are agreeing to our <a href="#"
+                    class="form__terms">Terms and Services</a></p>
+              </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+  <script src="./src/js/script.js"></script>
+</body>
+
+</html>
