@@ -149,13 +149,9 @@ $grayish-blue: 246 25% 77%;
 }
 
 .container {
-    width: calc(375px - 3rem);
+    // width: calc(375px - 3rem);
     margin-inline: auto;
-    
-    @include mq(400px){
-        width: min(calc(100% - 3rem), 1120px);
-
-    }
+    width: min(calc(100% - 3rem), 1120px);   
 }
 
 strong {
@@ -163,6 +159,9 @@ strong {
 
 body{
     background-color: var(--red);
+    // font-family: "Poppins",sans-serif;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0;
 }
 
 .intro {
