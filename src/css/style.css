@@ -169,7 +169,7 @@ body {
 }
 .intro__heading {
   font-size: var(--size-8);
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.175;
   margin-block: var(--size-4);
 }
@@ -231,7 +231,7 @@ body {
   border-radius: var(--size-1);
   outline: none;
   font-size: var(--size-4);
-  font-weight: 600;
+  font-weight: 700;
   caret-color: black;
 }
 .form__input:focus {
@@ -244,7 +244,7 @@ body {
   transform: translate(calc(1px + var(--_inline-padding)), calc(1px + var(--_block-padding)));
   opacity: 0;
   color: var(--dark-blue);
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
 }
 .form__input::-webkit-input-placeholder {
