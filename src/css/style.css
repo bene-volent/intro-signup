@@ -194,6 +194,7 @@ body {
 @media (width > 768px) {
   .intro__form {
     padding: var(--size-10);
+    margin-bottom: 0;
   }
 }
 

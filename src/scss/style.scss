@@ -219,6 +219,7 @@ body{
         background-color: #fff;
 
         @include undershadow();
+
     }
 
     &__form {
@@ -227,6 +228,7 @@ body{
 
         @include mq() {
             padding: var(--size-10);
+            margin-bottom: 0;
         }
     }
 }
@@ -251,6 +253,7 @@ body{
 
         @include undershadow();
         @include mq() {
+            // margin-bottom:0;
             padding-block: var(--size-6);
         }
     }
